@@ -1,0 +1,222 @@
+1527068281173	geckodriver	INFO	Listening on 127.0.0.1:17987
+1527068283213	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527068284418	Marionette	INFO	Enabled via --marionette
+1527068285756	Marionette	INFO	Listening on port 17993
+1527068286324	Marionette	WARN	TLS certificate errors will be ignored for this session
+1527068286450	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:278 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4406 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2270 < GeckoDriver.prototype.quit()@driver.js:3381 < despatch()@server.js:560 < execute()@server.js:534 < onPacket/<()@server.js:509 < onPacket()@server.js:508 < _onJSONObjectReady/<()@transport.js:500
+1527068400606	geckodriver	INFO	Listening on 127.0.0.1:18037
+1527068402672	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527068403880	Marionette	INFO	Enabled via --marionette
+1527068405168	Marionette	INFO	Listening on port 18043
+1527068405788	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=qq&json=1&p=3&sid=1450_21083_20927&req=2&csor=2&pwd=q&cb=jQuery1102021359220841911497_1527068406229&_=1527068406232, line 1: TypeError: jQuery1102021359220841911497_1527068406229 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=q&json=1&p=3&sid=1450_21083_20927&req=2&csor=1&cb=jQuery1102021359220841911497_1527068406229&_=1527068406231, line 1: TypeError: jQuery1102021359220841911497_1527068406229 is not a function
+[Parent 5868, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7936, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527068414894	geckodriver	INFO	Listening on 127.0.0.1:18101
+1527068416941	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527068418162	Marionette	INFO	Enabled via --marionette
+1527068419459	Marionette	INFO	Listening on port 18107
+1527068420054	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=e&json=1&p=3&sid=1436_21115_18560_26350&req=2&csor=1&cb=jQuery1102011376583596486167_1527068420533&_=1527068420535, line 1: TypeError: jQuery1102011376583596486167_1527068420533 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ee&json=1&p=3&sid=1436_21115_18560_26350&req=2&csor=2&pwd=e&cb=jQuery1102011376583596486167_1527068420533&_=1527068420536, line 1: TypeError: jQuery1102011376583596486167_1527068420533 is not a function
+[Child 4140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527068429192	geckodriver	INFO	Listening on 127.0.0.1:18172
+1527068431262	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527068432485	Marionette	INFO	Enabled via --marionette
+1527068433826	Marionette	INFO	Listening on port 18178
+1527068434374	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=tt&json=1&p=3&sid=18194_1449_26459_21093_26350_20929&req=2&csor=2&pwd=t&cb=jQuery110207932853219803149_1527068434838&_=1527068434841, line 1: TypeError: jQuery110207932853219803149_1527068434838 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=t&json=1&p=3&sid=18194_1449_26459_21093_26350_20929&req=2&csor=1&cb=jQuery110207932853219803149_1527068434838&_=1527068434840, line 1: TypeError: jQuery110207932853219803149_1527068434838 is not a function
+[Parent 7680, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133101249	geckodriver	INFO	Listening on 127.0.0.1:7284
+1527133103313	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133104595	Marionette	INFO	Enabled via --marionette
+1527133106126	Marionette	INFO	Listening on port 7290
+1527133106448	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UN&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=2&pwd=U&cb=jQuery110208645094778356615_1527133107007&_=1527133107010, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=U&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=1&cb=jQuery110208645094778356615_1527133107007&_=1527133107009, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNco&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=4&pwd=UNc&cb=jQuery110208645094778356615_1527133107007&_=1527133107012, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNc&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=3&pwd=UN&cb=jQuery110208645094778356615_1527133107007&_=1527133107011, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcod&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=5&pwd=UNco&cb=jQuery110208645094778356615_1527133107007&_=1527133107013, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcode&json=1&p=3&sid=1454_21098_26350_22073&req=2&csor=6&pwd=UNcod&cb=jQuery110208645094778356615_1527133107007&_=1527133107014, line 1: TypeError: jQuery110208645094778356615_1527133107007 is not a function
+[Child 8568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133115754	geckodriver	INFO	Listening on 127.0.0.1:7377
+1527133117856	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133119165	Marionette	INFO	Enabled via --marionette
+1527133122003	Marionette	INFO	Listening on port 7383
+1527133123074	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=P&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=1&cb=jQuery110205610470918119566_1527133123602&_=1527133123604, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Py&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=2&pwd=P&cb=jQuery110205610470918119566_1527133123602&_=1527133123605, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=6&pwd=Pytho&cb=jQuery110205610470918119566_1527133123602&_=1527133123609, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyt&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=3&pwd=Py&cb=jQuery110205610470918119566_1527133123602&_=1527133123606, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyth&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=4&pwd=Pyt&cb=jQuery110205610470918119566_1527133123602&_=1527133123607, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pytho&json=1&p=3&sid=13551_1435_21109_26350&req=2&csor=5&pwd=Pyth&cb=jQuery110205610470918119566_1527133123602&_=1527133123608, line 1: TypeError: jQuery110205610470918119566_1527133123602 is not a function
+[Parent 9104, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133132312	geckodriver	INFO	Listening on 127.0.0.1:7453
+1527133134376	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133135654	Marionette	INFO	Enabled via --marionette
+1527133137027	Marionette	INFO	Listening on port 7459
+1527133137482	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=r&json=1&p=3&sid=1432_21120_26430_22072&req=2&csor=1&cb=jQuery1102035545556721065286_1527133137965&_=1527133137967, line 1: TypeError: jQuery1102035545556721065286_1527133137965 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=rua&json=1&p=3&sid=1432_21120_26430_22072&req=2&csor=3&pwd=ru&cb=jQuery1102035545556721065286_1527133137965&_=1527133137969, line 1: TypeError: jQuery1102035545556721065286_1527133137965 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruanda&json=1&p=3&sid=1432_21120_26430_22072&req=2&csor=6&pwd=ruand&cb=jQuery1102035545556721065286_1527133137965&_=1527133137972, line 1: TypeError: jQuery1102035545556721065286_1527133137965 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruan&json=1&p=3&sid=1432_21120_26430_22072&req=2&csor=4&pwd=rua&cb=jQuery1102035545556721065286_1527133137965&_=1527133137970, line 1: TypeError: jQuery1102035545556721065286_1527133137965 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruand&json=1&p=3&sid=1432_21120_26430_22072&req=2&csor=5&pwd=ruan&cb=jQuery1102035545556721065286_1527133137965&_=1527133137971, line 1: TypeError: jQuery1102035545556721065286_1527133137965 is not a function
+[Child 8532, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133241232	geckodriver	INFO	Listening on 127.0.0.1:7561
+1527133243308	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133244559	Marionette	INFO	Enabled via --marionette
+1527133247189	Marionette	INFO	Listening on port 7568
+1527133247424	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UN&json=1&p=3&sid=1432_21091_20928&req=2&csor=2&pwd=U&cb=jQuery1102013607787665756022_1527133248040&_=1527133248043, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=U&json=1&p=3&sid=1432_21091_20928&req=2&csor=1&cb=jQuery1102013607787665756022_1527133248040&_=1527133248042, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNc&json=1&p=3&sid=1432_21091_20928&req=2&csor=3&pwd=UN&cb=jQuery1102013607787665756022_1527133248040&_=1527133248044, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcod&json=1&p=3&sid=1432_21091_20928&req=2&csor=5&pwd=UNco&cb=jQuery1102013607787665756022_1527133248040&_=1527133248046, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcode&json=1&p=3&sid=1432_21091_20928&req=2&csor=6&pwd=UNcod&cb=jQuery1102013607787665756022_1527133248040&_=1527133248047, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNco&json=1&p=3&sid=1432_21091_20928&req=2&csor=4&pwd=UNc&cb=jQuery1102013607787665756022_1527133248040&_=1527133248045, line 1: TypeError: jQuery1102013607787665756022_1527133248040 is not a function
+[Parent 9108, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133256740	geckodriver	INFO	Listening on 127.0.0.1:7633
+1527133258789	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133260083	Marionette	INFO	Enabled via --marionette
+1527133261481	Marionette	INFO	Listening on port 7640
+1527133261911	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=6&pwd=Pytho&cb=jQuery110208304165748690124_1527133262402&_=1527133262409, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=P&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=1&cb=jQuery110208304165748690124_1527133262402&_=1527133262404, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyth&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=4&pwd=Pyt&cb=jQuery110208304165748690124_1527133262402&_=1527133262407, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Py&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=2&pwd=P&cb=jQuery110208304165748690124_1527133262402&_=1527133262405, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyt&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=3&pwd=Py&cb=jQuery110208304165748690124_1527133262402&_=1527133262406, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pytho&json=1&p=3&sid=1425_26459_21096_26350_20928&req=2&csor=5&pwd=Pyth&cb=jQuery110208304165748690124_1527133262402&_=1527133262408, line 1: TypeError: jQuery110208304165748690124_1527133262402 is not a function
+1527133271089	geckodriver	INFO	Listening on 127.0.0.1:7709
+1527133273141	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133274363	Marionette	INFO	Enabled via --marionette
+1527133276372	Marionette	INFO	Listening on port 7716
+1527133276755	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ru&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=2&pwd=r&cb=jQuery110205820486877627336_1527133277262&_=1527133277265, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=r&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=1&cb=jQuery110205820486877627336_1527133277262&_=1527133277264, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=rua&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=3&pwd=ru&cb=jQuery110205820486877627336_1527133277262&_=1527133277266, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruanda&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=6&pwd=ruand&cb=jQuery110205820486877627336_1527133277262&_=1527133277269, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruan&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=4&pwd=rua&cb=jQuery110205820486877627336_1527133277262&_=1527133277267, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruand&json=1&p=3&sid=1426_21116_26350_20928&req=2&csor=5&pwd=ruan&cb=jQuery110205820486877627336_1527133277262&_=1527133277268, line 1: TypeError: jQuery110205820486877627336_1527133277262 is not a function
+[Child 4700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133847083	geckodriver	INFO	Listening on 127.0.0.1:8105
+1527133849167	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133850496	Marionette	INFO	Enabled via --marionette
+1527133852530	Marionette	INFO	Listening on port 8112
+1527133852786	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=U&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=1&cb=jQuery1102017295586755437264_1527133853325&_=1527133853327, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNc&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=3&pwd=UN&cb=jQuery1102017295586755437264_1527133853325&_=1527133853329, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNco&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=4&pwd=UNc&cb=jQuery1102017295586755437264_1527133853325&_=1527133853330, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcode&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=6&pwd=UNcod&cb=jQuery1102017295586755437264_1527133853325&_=1527133853332, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcod&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=5&pwd=UNco&cb=jQuery1102017295586755437264_1527133853325&_=1527133853331, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UN&json=1&p=3&sid=1455_21118_26433_20930&req=2&csor=2&pwd=U&cb=jQuery1102017295586755437264_1527133853325&_=1527133853328, line 1: TypeError: jQuery1102017295586755437264_1527133853325 is not a function
+[Child 8676, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133862050	geckodriver	INFO	Listening on 127.0.0.1:8179
+1527133864078	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133865356	Marionette	INFO	Enabled via --marionette
+1527133866728	Marionette	INFO	Listening on port 8185
+1527133867190	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyth&json=1&p=3&sid=1423_21078_18560_20927&req=2&csor=4&pwd=Pyt&cb=jQuery11020878790396649095_1527133867657&_=1527133867662, line 1: TypeError: jQuery11020878790396649095_1527133867657 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyt&json=1&p=3&sid=1423_21078_18560_20927&req=2&csor=3&pwd=Py&cb=jQuery11020878790396649095_1527133867657&_=1527133867661, line 1: TypeError: jQuery11020878790396649095_1527133867657 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Py&json=1&p=3&sid=1423_21078_18560_20927&req=2&csor=2&pwd=P&cb=jQuery11020878790396649095_1527133867657&_=1527133867660, line 1: TypeError: jQuery11020878790396649095_1527133867657 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python&json=1&p=3&sid=1423_21078_18560_20927&req=2&csor=6&pwd=Pytho&cb=jQuery11020878790396649095_1527133867657&_=1527133867664, line 1: TypeError: jQuery11020878790396649095_1527133867657 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pytho&json=1&p=3&sid=1423_21078_18560_20927&req=2&csor=5&pwd=Pyth&cb=jQuery11020878790396649095_1527133867657&_=1527133867663, line 1: TypeError: jQuery11020878790396649095_1527133867657 is not a function
+[Parent 7560, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4948, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1527133876344	geckodriver	INFO	Listening on 127.0.0.1:8250
+1527133878422	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527133879688	Marionette	INFO	Enabled via --marionette
+1527133881713	Marionette	INFO	Listening on port 8262
+1527133882039	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ru&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=2&pwd=r&cb=jQuery1102010341477623985018_1527133883145&_=1527133883148, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=r&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=1&cb=jQuery1102010341477623985018_1527133883145&_=1527133883147, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruand&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=5&pwd=ruan&cb=jQuery1102010341477623985018_1527133883145&_=1527133883151, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruanda&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=6&pwd=ruand&cb=jQuery1102010341477623985018_1527133883145&_=1527133883152, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=rua&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=3&pwd=ru&cb=jQuery1102010341477623985018_1527133883145&_=1527133883149, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruan&json=1&p=3&sid=1432_26459_21078_26430_20930&req=2&csor=4&pwd=rua&cb=jQuery1102010341477623985018_1527133883145&_=1527133883150, line 1: TypeError: jQuery1102010341477623985018_1527133883145 is not a function
+1527301312615	geckodriver	INFO	Listening on 127.0.0.1:1944
+1527301314676	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527301315957	Marionette	INFO	Enabled via --marionette
+1527301318874	Marionette	INFO	Listening on port 1950
+1527301319899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=UNcod&json=1&p=3&sid=1445_26259_21099_22157&req=2&csor=5&pwd=UNco&cb=jQuery110207880752365227313_1527301320460&_=1527301320466, line 1: TypeError: jQuery110207880752365227313_1527301320460 is not a function
+1527301329330	geckodriver	INFO	Listening on 127.0.0.1:2021
+1527301331347	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527301332619	Marionette	INFO	Enabled via --marionette
+1527301335642	Marionette	INFO	Listening on port 2027
+1527301336572	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Python&json=1&p=3&sid=26357_1428_21124_20930&req=2&csor=6&pwd=Pytho&cb=jQuery1102018456939476348644_1527301337144&_=1527301337151, line 1: TypeError: jQuery1102018456939476348644_1527301337144 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pyth&json=1&p=3&sid=26357_1428_21124_20930&req=2&csor=4&pwd=Pyt&cb=jQuery1102018456939476348644_1527301337144&_=1527301337149, line 1: TypeError: jQuery1102018456939476348644_1527301337144 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=Pytho&json=1&p=3&sid=26357_1428_21124_20930&req=2&csor=5&pwd=Pyth&cb=jQuery1102018456939476348644_1527301337144&_=1527301337150, line 1: TypeError: jQuery1102018456939476348644_1527301337144 is not a function
+1527301345986	geckodriver	INFO	Listening on 127.0.0.1:2092
+1527301348025	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1527301349294	Marionette	INFO	Enabled via --marionette
+1527301352563	Marionette	INFO	Listening on port 2098
+1527301353239	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruan&json=1&p=3&sid=1444_21119_26350_20719&req=2&csor=4&pwd=rua&cb=jQuery1102021224618389107253_1527301353998&_=1527301354003, line 1: TypeError: jQuery1102021224618389107253_1527301353998 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=ruand&json=1&p=3&sid=1444_21119_26350_20719&req=2&csor=5&pwd=ruan&cb=jQuery1102021224618389107253_1527301353998&_=1527301354004, line 1: TypeError: jQuery1102021224618389107253_1527301353998 is not a function
+[Child 6632, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1558252177457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Demon\\AppData\\Local\\Temp\\rust_mozprofile.dftTRMA1rz7s"
+1558252177897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558252177897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558252177897	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558252179307	Marionette	INFO	Listening on port 44984
+1558252179574	Marionette	WARN	TLS certificate errors will be ignored for this session
+1558252188833	Marionette	INFO	Stopped listening on port 44984
+[Child 6512, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6512, Chr[Parent 6060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 1460, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 6060, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2172, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 2172, Chrome_Child1558252192737	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Demon\\AppData\\Local\\Temp\\rust_mozprofile.ItEV31EOFHNy"
+1558252193154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558252193154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558252193154	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558252194515	Marionette	INFO	Listening on port 45053
+1558252194841	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1558252204168	Marionette	INFO	Stopped listening on port 45053
+[Parent 7552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7604, Chrome_ChildThread] W[Parent 7552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7552, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6764, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 6764, Chrome_ChildThread] WARNING:1558252208040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Demon\\AppData\\Local\\Temp\\rust_mozprofile.AKQ3NiDy3pTb"
+1558252208474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558252208474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558252208474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558252209804	Marionette	INFO	Listening on port 45128
+1558252210151	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1558252219441	Marionette	INFO	Stopped listening on port 45128
+[Parent 7092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5912, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 7296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 7092, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5212, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 5212, Chrome_ChildThread] WARNING: pipe1558748892158	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Demon\\AppData\\Local\\Temp\\rust_mozprofile.bgYuZa5qUB3y"
+1558748892977	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558748892977	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558748892977	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558748894699	Marionette	INFO	Listening on port 1252
+1558748894864	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
