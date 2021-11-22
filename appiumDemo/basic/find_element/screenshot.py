@@ -1,4 +1,4 @@
-from basic.find_element.capability import driver
+from appiumDemo.basic.find_element.capability import driver
 
 driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').clear()
 driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').send_keys('55555')

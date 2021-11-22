@@ -1,7 +1,7 @@
 from appium import webdriver
 import yaml
 
-with open('desired_caps.yaml','r',encoding='utf-8') as f:
+with open('desired_caps.yaml', 'r', encoding='utf-8') as f:
     data = yaml.load(f,Loader=yaml.FullLoader)
 
 desired_caps={}

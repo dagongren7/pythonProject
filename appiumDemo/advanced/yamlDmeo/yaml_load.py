@@ -1,6 +1,5 @@
-import yaml
 
-with open('./familyInfo.yaml', 'r+',encoding='utf-8') as f:
+with open('familyInfo.yaml', 'r+', encoding='utf-8') as f:
     data = yaml.load(f,Loader=yaml.FullLoader)
 
 print(data)

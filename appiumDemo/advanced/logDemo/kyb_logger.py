@@ -6,7 +6,7 @@ from selenium.common.exceptions import NoSuchElementException
 file=open('../yaml/desired_caps.yaml','r')
 data=yaml.load(file)
 
-logging.basicConfig(level=logging.INFO,filename='runlog.log',
+logging.basicConfig(level=logging.INFO, filename='runlog.log',
                     format='%(asctime)s %(filename)s[line:%(lineno)d]%(levelname)s%(message)s')
 
 desired_caps={}

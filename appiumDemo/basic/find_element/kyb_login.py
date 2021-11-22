@@ -1,4 +1,5 @@
-from basic.find_element.capability import driver,NoSuchElementException
+from appiumDemo.basic.find_element.capability import driver, NoSuchElementException
+
 
 def login():
     driver.find_element_by_id('com.tal.kaoyan:id/login_email_edittext').clear()
@@ -6,7 +7,6 @@ def login():
 
     driver.find_element_by_id('com.tal.kaoyan:id/login_password_edittext').send_keys('zxw2018')
     driver.find_element_by_id('com.tal.kaoyan:id/login_login_btn').click()
-
 
 
 try:
@@ -18,4 +18,3 @@ else:
     driver.find_element_by_id('com.tal.kaoyan:id/mainactivity_button_mysefl').click()
     driver.find_element_by_id('com.tal.kaoyan:id/activity_usercenter_username').click()
     login()
-
