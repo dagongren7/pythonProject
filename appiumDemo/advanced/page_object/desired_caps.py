@@ -3,12 +3,17 @@ import yaml
 import logging
 import logging.config
 
-CON_LOG='log.conf'
-logging.config.fileConfig(CON_LOG)
+from os import path
+log_file_path = path.join(path.dirname(path.abspath(__file__)), 'log.conf')
+print('logpath=',log_file_path)
+logging.config.fileConfig(log_file_path)
+# CON_LOG='./log.conf'
+# logging.config.fileConfig(CON_LOG)
 logging=logging.getLogger()
 
 def appium_desired():
-    file = open('desired_caps.yaml', 'r+')
+    desired_caps_path = path.join(path.dirname(path.abspath(__file__)), 'desired_caps.yaml')
+    file = open(desired_caps_path, 'r+')
     data = yaml.load(file,Loader=yaml.FullLoader)
 
     desired_caps={}
