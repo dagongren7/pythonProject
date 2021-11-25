@@ -8,12 +8,12 @@ def sendmail_kong(title):
     #发送邮箱服务器
     smtpserver = 'smtp.sina.cn'
     #发送邮箱用户/密码
-    user = '18614924844@sina.cn'
-    password = '1234567890'
+    user = '13023294697@sina.cn'
+    password = 'chen184550'
     #发送邮箱
-    sender = '18614924844@sina.cn'
+    sender = '13023294697@sina.cn'
     #接收邮箱
-    receiver = '359407130@qq.com'
+    receiver = '13023294697@qq.com'
     #发送邮箱主题
     subject = '邮件发送测试'
     #编写HTML类型的邮件正文

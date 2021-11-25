@@ -6,7 +6,7 @@ class Test_Baidu(unittest.TestCase):
     @classmethod
     def setUpClass(self):
         '''这是一个方法注释'''
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.get("http://www.baidu.com/")
     @classmethod
     def tearDownClass(self):

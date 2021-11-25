@@ -1,14 +1,13 @@
 import unittest,HTMLTestRunner_cn
-from first.tools import *
 
 suite = unittest.defaultTestLoader.discover('./',pattern='test_qq.py')
 
 if __name__=='__main__':
     filename = 'result.html'
     runner = HTMLTestRunner_cn.HTMLTestRunner(open(filename,'wb') ,
-                                           title='5月19日Test',
+                                           title='1123',
                                            description='''
-                                           a;lskfj;asdfj;afd
+                                           好的
                                                 ''')
     runner.run(suite)
-    SendMailAttach(filename)
+    # SendMailAttach(filename)

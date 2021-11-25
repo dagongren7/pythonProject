@@ -4,13 +4,12 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
 import unittest
 import os
-class DoubanTest(unittest.TestCase):1
+class DoubanTest(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         self.driver.get("http://www.baidu.com")
         sleep(2)
     def tearDown(self):
-        # self.driver.quit()
         self.driver.quit()
     def test_add(self):
         element = self.driver.find_element_by_xpath(".//*[@id='lg']/img")
