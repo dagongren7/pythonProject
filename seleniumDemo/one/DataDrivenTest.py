@@ -1,6 +1,6 @@
 #encoding=utf-8
 from selenium import webdriver
-from one.ReportTemplate import htmlTemplate
+from ReportTemplate import htmlTemplate
 from selenium.common.exceptions import NoSuchElementException
 import unittest,time,logging,traceback,ddt
 
@@ -25,7 +25,7 @@ class TestDemo(unittest.TestCase):
     def setUpClass(cls):
         TestDemo.trStr=""
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
         status = None  #用于存放测试结果状态
         flag = 0 #数据驱动测试结果的标志，失败0 成功1
     
