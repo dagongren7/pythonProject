@@ -1,9 +1,14 @@
+'''
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), “..”))) # 当前项目路径加入
+'''
 import unittest
 from  BSTestRunner import BSTestRunner
 import time,logging
 import sys
-path='D:\\kyb_testProject\\'
+
+path='F:/dailyCode/pythonCode/pythonProject1/appiumDemo/unityDemo/kyb_testProject/'
 sys.path.append(path)
+sys.path.append('F:/dailyCode/pythonCode/pythonProject1'+'/venv/Lib/site-packages/')
 
 test_dir='../test_case'
 report_dir='../reports'
