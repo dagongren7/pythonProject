@@ -2,19 +2,17 @@ from appium import webdriver
 import yaml
 import logging
 import logging.config
-
 from os import path
-log_file_path = path.join(path.dirname(path.abspath(__file__)), 'log.conf')
-print('logpath=',log_file_path)
+base_dir = path.dirname(path.abspath(__file__))
+log_file_path = path.join(base_dir, 'log.conf')
 logging.config.fileConfig(log_file_path)
 # CON_LOG='./log.conf'
-# logging.config.fileConfig(CON_LOG)
 logging=logging.getLogger()
 
 def appium_desired():
     desired_caps_path = path.join(path.dirname(path.abspath(__file__)), 'desired_caps.yaml')
-    file = open(desired_caps_path, 'r+')
-    data = yaml.load(file,Loader=yaml.FullLoader)
+    with open(desired_caps_path, 'r', encoding='utf-8') as file:
+        data = yaml.load(file, Loader=yaml.FullLoader)
 
     desired_caps={}
     desired_caps['platformName']=data['platformName']
