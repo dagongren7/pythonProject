@@ -1,10 +1,12 @@
 import ddt,time
 import unittest
 from selenium import webdriver
-from count_file.ReportTemplate import htmlTemplate
+from seleniumDemo.count_file.ReportTemplate import htmlTemplate
 from selenium.common.exceptions import NoSuchElementException
 import logging,traceback
-
+'''
+=数据驱动：从json文件中读取数据
+'''
 @ddt.ddt
 class DoubanTest(unittest.TestCase):
     @classmethod
@@ -24,6 +26,7 @@ class DoubanTest(unittest.TestCase):
     @ddt.file_data('data.json')
     @ddt.unpack
     def test_baidu(self,value):
+        #数据字典
         flagDict = {0:'red',1:'green'}
         can, yu = value.split('||')
         try:

@@ -1,5 +1,5 @@
 from selenium import webdriver
-from two.ExcelUtil import ParseExcel
+from seleniumDemo.two.ExcelUtil import ParseExcel
 from selenium.common.exceptions import NoSuchElementException
 import unittest,time,logging,traceback,ddt
 
@@ -14,9 +14,9 @@ logging.basicConfig(
         #日志文件存放的目录(目录必须存在)及日志文件名
         filename = 'd:/report.log',
         #打工日志文件的方式
-        filemode ='w'
+        filemode ='a'
         )
-excelPath = 'D:/data/测试数据.xlsx'
+excelPath = 'D:/test.xlsx'
 sheetName = '搜索数据表'
 excel = ParseExcel(excelPath)
 
