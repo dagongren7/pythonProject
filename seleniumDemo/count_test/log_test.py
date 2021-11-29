@@ -13,8 +13,8 @@ logging.basicConfig(
         datefmt = '%a, %d %b %Y %H:%M:%S',
         #日志文件存放的目录(目录必须存在)及日志文件名
         filename = './report.log',
-        #打开日志文件的方式
-        filemode ='w'
+        #打开日志文件的方式 w a 两种方式
+        filemode ='a'
         )
 
 @ddt.ddt
