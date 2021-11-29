@@ -4,7 +4,9 @@ from selenium import webdriver
 from seleniumDemo.count_file.ReportTemplate import htmlTemplate
 from selenium.common.exceptions import NoSuchElementException
 import logging,traceback
-
+'''
+=数据驱动：从json文件中读取数据
+'''
 @ddt.ddt
 class DoubanTest(unittest.TestCase):
     @classmethod

@@ -1,5 +1,5 @@
 from selenium import webdriver
-from two.ExcelUtil import ParseExcel
+from seleniumDemo.two.ExcelUtil import ParseExcel
 from selenium.common.exceptions import NoSuchElementException
 import unittest,time,logging,traceback,ddt
 
