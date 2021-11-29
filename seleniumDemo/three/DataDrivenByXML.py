@@ -1,5 +1,5 @@
 from selenium import webdriver
-from three.XmlUtil import ParseXML
+from seleniumDemo.three.XmlUtil import ParseXML
 from selenium.common.exceptions import NoSuchElementException
 import unittest,time,os,logging,traceback,ddt
 
@@ -13,7 +13,7 @@ logging.basicConfig(
         #打印日志的时间
         datefmt = '%a, %d %b %Y %H:%M:%S',
         #日志文件存放的目录(目录必须存在)及日志文件名
-        filename = 'd:/report.log',
+        filename = './report.log',
         #打工日志文件的方式
         filemode ='w'
         )
@@ -28,7 +28,7 @@ xml = ParseXML(dataFilePath)
 @ddt.ddt
 class TestDemo(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
 
     def tearDown(self):
         self.driver.quit()

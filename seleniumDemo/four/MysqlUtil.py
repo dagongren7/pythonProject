@@ -1,4 +1,4 @@
-from four.DatabaseInit import DataBaseInit
+from seleniumDemo.four.DatabaseInit import DataBaseInit
 import MySQLdb
 
 class MyMySQL():
@@ -10,7 +10,7 @@ class MyMySQL():
         self.conn = MySQLdb.connect(
                 host='localhost',
                 user='root',
-                passwd='1234',
+                passwd='123456',
                 db='test',
                 charset= 'utf8'
                     )
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     db = MyMySQL(
         host='localhost',
         username='root',
-        password='1234',
+        password='123456',
         dbName='test',
         charset='utf8'
         )
