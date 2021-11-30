@@ -1,13 +1,12 @@
 class SqlYju():
-
-    create_table ='''
-        drop table testdata;
-        create table testdata(
+    create_table = '''
+        # DROP TABLE IF EXISTS `testdata`;
+        CREATE TABLE IF NOT EXISTS `testdata`(
         id int not null,
         bookname varchar(40),
         author varchar(30),
-        result char(4)    # pass fail
-        );
+        result char(4)  
+        ); 
         '''
     insert_table = '''
         insert into testdata(id,bookname,author)

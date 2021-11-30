@@ -38,7 +38,7 @@ class DataBaseInit():
             #获取数据库游标
             cur = conn.cursor()
             #选择test数据库
-            
+
             conn.select_db("test")
             cur.execute(SqlYju.create_table)
         except Exception as e:
@@ -80,7 +80,7 @@ if __name__ == '__main__':
         )
     db.test()
 
-    # db.create()
+    db.create()
     # db.insertDatas()
     # print("数据库初始化结束")
     pass

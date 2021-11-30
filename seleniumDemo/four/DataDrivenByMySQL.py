@@ -12,7 +12,7 @@ logging.basicConfig(
         #打印日志的时间
         datefmt = '%a, %d %b %Y %H:%M:%S',
         #日志文件存放的目录(目录必须存在)及日志文件名
-        filename = 'd:/test/report.log',
+        filename = './report.log',
         #打工日志文件的方式
         filemode ='w'
         )
@@ -22,7 +22,7 @@ def getTestDatas():
         host = "localhost",
         dbName = "test",
         username = "root",
-        password = "1234",
+        password = "123456",
         charset = "utf8"       
         )
     
