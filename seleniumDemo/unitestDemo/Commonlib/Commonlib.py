@@ -1,7 +1,28 @@
 from selenium import webdriver
-import time
+import time,logging
+
+#初始化日志对象
+logging.basicConfig(
+        #日志级别
+        level = logging.INFO,
+        #日志格式
+        #时间、代码所在文件名、代码行号、日志级别名字、日志信息
+        format = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+#打印日志的时间
+        datefmt = '%a, %d %b %Y %H:%M:%S',
+        #日志文件存放的目录(目录必须存在)及日志文件名
+        filename = './report.log',
+        #打开日志文件的方式 w a 两种方式
+        filemode ='a'
+        )
 
 class Commonshare(object):
+    @classmethod
+    def setUpClass(self):
+        pass
+    @classmethod
+    def tearDownClass(self):
+        logging.info('结束----------')
     # 初始化方法
     def __init__(self):
         # 创建浏览器对象
@@ -62,12 +83,6 @@ class Commonshare(object):
         el = self.locateElement(locate_type, value)
         return el.get_attribute(data)
 
-
-
-    # 收尾清理方法
-    def __del__(self):
-        time.sleep(3)
-        self.driver.quit()
 
 if __name__ == '__main__':
     pass
