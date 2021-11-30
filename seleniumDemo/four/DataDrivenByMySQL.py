@@ -1,5 +1,5 @@
 from selenium import webdriver
-from four.MysqlUtil import MyMySQL
+from seleniumDemo.four.MysqlUtil import MyMySQL
 from selenium.common.exceptions import NoSuchElementException
 import unittest,time,logging,traceback,ddt
 #初始化日志对象
@@ -34,7 +34,7 @@ def getTestDatas():
 class Test(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
     def tearDown(self):
         self.driver.quit()
         

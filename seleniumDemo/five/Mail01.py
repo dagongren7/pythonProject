@@ -3,14 +3,14 @@ from email.mime.text import MIMEText
 from email.header import Header
 
 #发送邮箱服务器
-smtpserver ='smtp.sina.cn'
+smtpserver ='smtp.163.com'
 #发送邮箱用户/密码
-user ='18614924844@sina.cn'
-password ='1234567890'
+user ='13023294697@163.com'
+password ='chen184550'
 #发送邮箱
-sender = '18614924844@sina.cn'
+sender = '13023294697@163.com'
 #接收邮箱
-receiver = '359407130@qq.com'
+receiver = '810483775@qq.com'
 #发送邮箱主题
 subject = 'Python email test'
 #编写HTML类型的邮件正文
