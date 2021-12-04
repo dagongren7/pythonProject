@@ -1,0 +1,264 @@
+
+WaWarning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:4152) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.[35m[Appium][39m Welcome to Appium v1.9.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+
+WaWarning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:11220) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+35m[Appium][39m Welcome to Appium v1.9.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"capabilities":{"firstMatch":[{"platformName":"Android","appium:platformVersion":"4.4.2","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:noReset":false}]},"desiredCapabilities":{"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false}}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"4.4.2","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:noReset":false}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638088757736 (16:39:17 GMT+0800 (中国标准时间))
+[35m[Appium][39m Creating new AndroidDriver (v4.1.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 4.4.2
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   noReset: false
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Session created with session id: 00cce325-94d9-4bb9-beca-6c853d170770
+[35m[AndroidDriver][39m Java version is: 1.8.0_201
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk' (newest first):
+[35m[ADB][39m     E:/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/build-tools/android-4.4.2
+[35m[ADB][39m Using adb.exe from E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 19
+[debug] [35m[ADB][39m Device API level: 19
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.tal.kaoyan directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages com.tal.kaoyan'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\build-tools\android-4.4.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Device API level: 19
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'undefined' and country: 'undefined'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 4.4.2
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push 'C:\\Program Files (x86)\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar' /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Device API level: 19
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S'
+[35m[Appium][39m New AndroidDriver session created successfully, session 00cce325-94d9-4bb9-beca-6c853d170770 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638088768640 (16:39:28 GMT+0800 (中国标准时间))
+[debug] [35m[W3C][39m Cached the protocol value 'W3C' for the new session 00cce325-94d9-4bb9-beca-6c853d170770
+[debug] [35m[W3C][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false},"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManufacturer":"Xiaomi"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10911 ms - 819[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/00cce325-94d9-4bb9-beca-6c853d170770/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"00cce325-94d9-4bb9-beca-6c853d170770"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/00cce325-94d9-4bb9-beca-6c853d170770/timeouts [39m[32m200[39m [90m14 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:13800) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:14604) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false},null,{"firstMatch":[{"platformName":"Android","appium:platformVersion":"4.4.2","appium:deviceName":"127.0.0.1:62001","appium:udid":"127.0.0.1:62001","appium:appPackage":"com.tal.kaoyan","appium:appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","appium:noReset":false}]}]
+[debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1638088820626 (16:40:20 GMT+0800 (中国标准时间))
+[35m[Appium][39m Creating new AndroidDriver (v4.1.1) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   platformVersion: 4.4.2
+[35m[Appium][39m   deviceName: 127.0.0.1:62001
+[35m[Appium][39m   udid: 127.0.0.1:62001
+[35m[Appium][39m   appPackage: com.tal.kaoyan
+[35m[Appium][39m   appActivity: com.tal.kaoyan.ui.activity.SplashActivity
+[35m[Appium][39m   noReset: false
+[debug] [35m[BaseDriver][39m W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"platformName":"Android","... were provided
+[debug] [35m[BaseDriver][39m Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[35m[BaseDriver][39m Session created with session id: b3524ec2-0a2c-4456-98f5-7d255e7bdf03
+[35m[AndroidDriver][39m Java version is: 1.8.0_201
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk' (newest first):
+[35m[ADB][39m     E:/adt-bundle-windows-x86_64-20140321/adt-bundle-windows-x86_64-20140321/sdk/build-tools/android-4.4.2
+[35m[ADB][39m Using adb.exe from E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[debug] [35m[ADB][39m Trying to find a connected android device
+[debug] [35m[ADB][39m Getting connected devices...
+[debug] [35m[ADB][39m 2 device(s) connected
+[35m[AndroidDriver][39m Using device: 127.0.0.1:62001
+[debug] [35m[ADB][39m Setting device id to 127.0.0.1:62001
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.sdk': 19
+[debug] [35m[ADB][39m Device API level: 19
+[35m[AndroidDriver][39m App file was not listed, instead we're going to run com.tal.kaoyan directly on the device
+[debug] [35m[AndroidDriver][39m Checking whether package is present on the device
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages com.tal.kaoyan'
+[35m[AndroidDriver][39m Starting Android session
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+[debug] [35m[AndroidDriver][39m Pushing settings apk to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.settings
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.settings'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.settings'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\build-tools\android-4.4.2\aapt.exe
+[debug] [35m[ADB][39m The installed 'io.appium.settings' package does not require upgrade ('2.3.0' >= '2.3.0')
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[debug] [35m[AndroidDriver][39m io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [35m[ADB][39m Device API level: 19
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'undefined' and country: 'undefined'
+[debug] [35m[Logcat][39m Starting logcat capture
+[debug] [35m[AndroidDriver][39m Pushing unlock helper app to device...
+[debug] [35m[ADB][39m Getting install status for io.appium.unlock
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages io.appium.unlock'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Getting package info for 'io.appium.unlock'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.unlock'
+[debug] [35m[ADB][39m The installed 'io.appium.unlock' package does not require upgrade ('2.0.0' >= '2.0.0')
+[35m[ADB][39m Getting device platform version
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.release'
+[debug] [35m[ADB][39m Current device property 'ro.build.version.release': 4.4.2
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell wm size'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.model'
+[debug] [35m[ADB][39m Current device property 'ro.product.model': MI 6
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.product.manufacturer'
+[debug] [35m[ADB][39m Current device property 'ro.product.manufacturer': Xiaomi
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[debug] [35m[AndroidDriver][39m No app capability. Assuming it is already on the device
+[debug] [35m[ADB][39m Getting install status for com.tal.kaoyan
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list packages com.tal.kaoyan'
+[debug] [35m[ADB][39m App is installed
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tal.kaoyan'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm clear com.tal.kaoyan'
+[debug] [35m[AndroidDriver][39m Performed fast reset on the installed 'com.tal.kaoyan' application (stop and clear)
+[debug] [35m[AndroidBootstrap][39m Watching for bootstrap disconnect
+[debug] [35m[ADB][39m Forwarding system: 4724 to device: 4724
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:4724 tcp\:4724'
+[debug] [35m[UiAutomator][39m Starting UiAutomator
+[debug] [35m[UiAutomator][39m Moving to state 'starting'
+[debug] [35m[UiAutomator][39m Parsing uiautomator jar
+[debug] [35m[UiAutomator][39m Found jar name: 'AppiumBootstrap.jar'
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 push 'C:\\Program Files (x86)\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-android-driver\\bootstrap\\bin\\AppiumBootstrap.jar' /data/local/tmp/'
+[debug] [35m[ADB][39m Attempting to kill all uiautomator processes
+[debug] [35m[ADB][39m Getting all processes with uiautomator
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[debug] [35m[UiAutomator][39m Starting UIAutomator
+[debug] [35m[ADB][39m Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","uiautomator","runtest","AppiumBootstrap.jar","-c","io.appium.android.bootstrap.Bootstrap","-e","pkg","com.tal.kaoyan","-e","disableAndroidWatchers",false,"-e","acceptSslCerts",false]
+[debug] [35m[UiAutomator][39m Moving to state 'online'
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] json loading complete.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[debug] [35m[AndroidBootstrap][39m [BOOTSTRAP LOG] [debug] Client connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[debug] [35m[ADB][39m Device API level: 19
+[debug] [35m[ADB][39m Running 'E:\adt-bundle-windows-x86_64-20140321\adt-bundle-windows-x86_64-20140321\sdk\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tal.kaoyan/com.tal.kaoyan.ui.activity.SplashActivity -S'
+[35m[Appium][39m New AndroidDriver session created successfully, session b3524ec2-0a2c-4456-98f5-7d255e7bdf03 added to master session list
+[debug] [35m[BaseDriver][39m Event 'newSessionStarted' logged at 1638088831295 (16:40:31 GMT+0800 (中国标准时间))
+[debug] [35m[W3C][39m Cached the protocol value 'W3C' for the new session b3524ec2-0a2c-4456-98f5-7d255e7bdf03
+[debug] [35m[W3C][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false},"platformName":"Android","platformVersion":"4.4.2","deviceName":"127.0.0.1:62001","udid":"127.0.0.1:62001","appPackage":"com.tal.kaoyan","appActivity":"com.tal.kaoyan.ui.activity.SplashActivity","noReset":false,"deviceUDID":"127.0.0.1:62001","deviceScreenSize":"720x1280","deviceModel":"MI 6","deviceManufacturer":"Xiaomi"}}
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m10676 ms - 819[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/b3524ec2-0a2c-4456-98f5-7d255e7bdf03/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":5000}[39m
+[debug] [35m[W3C][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,5000,"b3524ec2-0a2c-4456-98f5-7d255e7bdf03"]
+[debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":5000}}
+[debug] [35m[BaseDriver][39m Set implicit wait to 5000ms
+[debug] [35m[W3C][39m Responding to client with driver.timeouts() result: null
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/b3524ec2-0a2c-4456-98f5-7d255e7bdf03/timeouts [39m[32m200[39m [90m15 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:15300) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[35m[Appium][39m Welcome to Appium v1.9.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:2728) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[35m[Appium][39m Welcome to Appium v1.9.1
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4723
+
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:1088) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+[35m[Appium][39m Welcome to Appium v1.9.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 4725
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:4725
+
+Warning: Accessing PropTypes via the main React package is deprecated, and will be removed in  React v16.0. Use the latest available v15.* prop-types package from npm instead. For info on usage, compatibility, migration and more, see https://fb.me/prop-types-docs
+Warning: Accessing createClass via the main React package is deprecated, and will be removed in React v16.0. Use a plain JavaScript class instead. If you're not yet ready to migrate, create-react-class v15.* is available on npm as a temporary, drop-in replacement. For more info see https://fb.me/react-create-class
+(node:15368) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.

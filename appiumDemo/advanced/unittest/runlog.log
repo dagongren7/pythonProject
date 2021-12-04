@@ -1,0 +1,32 @@
+
+2021-11-24 23:11:18,498 myunit.py[line:10] INFO =====setUp====
+2021-11-24 23:13:45,210 myunit.py[line:10] INFO =====setUp====
+2021-11-24 23:13:45,213 desired_caps.py[line:31] INFO start app...
+2021-11-24 23:13:58,591 common_fun.py[line:14] INFO ==========check_cancelBtn=========
+2021-11-24 23:14:00,014 common_fun.py[line:23] INFO =========check skipBtn=============
+2021-11-24 23:14:01,398 loginView.py[line:17] INFO ============login_action==============
+2021-11-24 23:14:01,398 loginView.py[line:18] INFO username is:6666
+2021-11-24 23:14:07,721 loginView.py[line:21] INFO password is:222
+2021-11-24 23:14:13,446 loginView.py[line:24] INFO click loginBtn
+2021-11-24 23:14:14,157 loginView.py[line:26] INFO login finished!
+2021-11-24 23:14:14,158 myunit.py[line:14] INFO ====tearDown====
+2021-11-24 23:14:19,821 myunit.py[line:10] INFO =====setUp====
+2021-11-24 23:14:19,824 desired_caps.py[line:31] INFO start app...
+2021-11-24 23:14:33,100 common_fun.py[line:14] INFO ==========check_cancelBtn=========
+2021-11-24 23:14:34,523 common_fun.py[line:23] INFO =========check skipBtn=============
+2021-11-24 23:14:35,902 loginView.py[line:17] INFO ============login_action==============
+2021-11-24 23:14:35,902 loginView.py[line:18] INFO username is:自学网2017
+2021-11-24 23:14:42,311 loginView.py[line:21] INFO password is:zxw2017
+2021-11-24 23:14:47,507 loginView.py[line:24] INFO click loginBtn
+2021-11-24 23:14:48,206 loginView.py[line:26] INFO login finished!
+2021-11-24 23:14:48,206 myunit.py[line:14] INFO ====tearDown====
+2021-11-24 23:14:53,919 myunit.py[line:10] INFO =====setUp====
+2021-11-24 23:14:53,921 desired_caps.py[line:31] INFO start app...
+2021-11-24 23:15:07,425 common_fun.py[line:14] INFO ==========check_cancelBtn=========
+2021-11-24 23:15:08,734 common_fun.py[line:23] INFO =========check skipBtn=============
+2021-11-24 23:15:10,122 loginView.py[line:17] INFO ============login_action==============
+2021-11-24 23:15:10,123 loginView.py[line:18] INFO username is:自学网2018
+2021-11-24 23:15:16,034 loginView.py[line:21] INFO password is:zxw2018
+2021-11-24 23:15:21,281 loginView.py[line:24] INFO click loginBtn
+2021-11-24 23:15:21,966 loginView.py[line:26] INFO login finished!
+2021-11-24 23:15:21,967 myunit.py[line:14] INFO ====tearDown====

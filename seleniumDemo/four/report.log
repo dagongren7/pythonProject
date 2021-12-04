@@ -1,0 +1,4 @@
+Tue, 30 Nov 2021 20:17:29 DataDrivenByMySQL.py[line:60] INFO 搜索 ' 'HTTP'',期望 ' 'qqq'',通过
+Tue, 30 Nov 2021 20:17:39 DataDrivenByMySQL.py[line:56] INFO 搜索 ' 'eee'',期望 ' 'rrr'',失败
+Tue, 30 Nov 2021 20:17:50 DataDrivenByMySQL.py[line:60] INFO 搜索 ' 'HTTP'',期望 ' 'qqq'',通过
+Tue, 30 Nov 2021 20:18:01 DataDrivenByMySQL.py[line:56] INFO 搜索 ' 'eee'',期望 ' 'rrr'',失败
