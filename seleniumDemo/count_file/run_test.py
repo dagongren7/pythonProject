@@ -17,8 +17,8 @@ class DoubanTest(unittest.TestCase):
     def tearDownClass(self):
         print(DoubanTest.TestDemo)
         self.driver.quit()
-
         htmlTemplate(DoubanTest.TestDemo)
+
     def setUp(self):
         self.driver.get('http://www.baidu.com/')
     def tearDown(self):
